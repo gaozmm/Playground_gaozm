@@ -76,27 +76,27 @@ include CMakeFiles/CppProject.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CppProject.dir/flags.make
 
-CMakeFiles/CppProject.dir/main.cpp.obj: CMakeFiles/CppProject.dir/flags.make
-CMakeFiles/CppProject.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\GAOZHEMING\Project in KU\Playground\Playground_gaozm\CppProject\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppProject.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CppProject.dir\main.cpp.obj -c "C:\Users\GAOZHEMING\Project in KU\Playground\Playground_gaozm\CppProject\main.cpp"
+CMakeFiles/CppProject.dir/test.cpp.obj: CMakeFiles/CppProject.dir/flags.make
+CMakeFiles/CppProject.dir/test.cpp.obj: ../test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\GAOZHEMING\Project in KU\Playground\Playground_gaozm\CppProject\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppProject.dir/test.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CppProject.dir\test.cpp.obj -c "C:\Users\GAOZHEMING\Project in KU\Playground\Playground_gaozm\CppProject\test.cpp"
 
-CMakeFiles/CppProject.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProject.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\GAOZHEMING\Project in KU\Playground\Playground_gaozm\CppProject\main.cpp" > CMakeFiles\CppProject.dir\main.cpp.i
+CMakeFiles/CppProject.dir/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProject.dir/test.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\GAOZHEMING\Project in KU\Playground\Playground_gaozm\CppProject\test.cpp" > CMakeFiles\CppProject.dir\test.cpp.i
 
-CMakeFiles/CppProject.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProject.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\GAOZHEMING\Project in KU\Playground\Playground_gaozm\CppProject\main.cpp" -o CMakeFiles\CppProject.dir\main.cpp.s
+CMakeFiles/CppProject.dir/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProject.dir/test.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\GAOZHEMING\Project in KU\Playground\Playground_gaozm\CppProject\test.cpp" -o CMakeFiles\CppProject.dir\test.cpp.s
 
 # Object files for target CppProject
 CppProject_OBJECTS = \
-"CMakeFiles/CppProject.dir/main.cpp.obj"
+"CMakeFiles/CppProject.dir/test.cpp.obj"
 
 # External object files for target CppProject
 CppProject_EXTERNAL_OBJECTS =
 
-CppProject.exe: CMakeFiles/CppProject.dir/main.cpp.obj
+CppProject.exe: CMakeFiles/CppProject.dir/test.cpp.obj
 CppProject.exe: CMakeFiles/CppProject.dir/build.make
 CppProject.exe: CMakeFiles/CppProject.dir/linklibs.rsp
 CppProject.exe: CMakeFiles/CppProject.dir/objects1.rsp

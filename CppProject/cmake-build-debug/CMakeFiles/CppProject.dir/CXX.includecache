@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/GAOZHEMING/Project in KU/Playground/Playground_gaozm/CppProject/main.cpp
-stdio.h
+C:/Users/GAOZHEMING/Project in KU/Playground/Playground_gaozm/CppProject/test.cpp
+iostream
+-
+omp.h
+-
+regex
+-
+vector
+-
+vector
 -
 
