@@ -1,0 +1,36 @@
+C:\CLion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_CUDA_COMPILER=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/bin/nvcc.exe" -G "CodeBlocks - MinGW Makefiles" C:\Users\Gao_z\CLionProjects\Playground_gaozm\CUDA_cpp
+-- The CUDA compiler identification is unknown
+-- Check for working CUDA compiler: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/bin/nvcc.exe
+-- Check for working CUDA compiler: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/bin/nvcc.exe - broken
+CMake Error at C:/CLion/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestCUDACompiler.cmake:46 (message):
+  The CUDA compiler
+
+    "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/bin/nvcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/Users/Gao_z/CLionProjects/Playground_gaozm/CUDA_cpp/cmake-build-debug-nvcc/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe cmTC_ca0af/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ca0af.dir\build.make CMakeFiles/cmTC_ca0af.dir/build
+    mingw32-make.exe[1]: Entering directory 'C:/Users/Gao_z/CLionProjects/Playground_gaozm/CUDA_cpp/cmake-build-debug-nvcc/CMakeFiles/CMakeTmp'
+    Building CUDA object CMakeFiles/cmTC_ca0af.dir/main.cu.obj
+    C:\PROGRA~1\NVIDIA~2\CUDA\v11.2\bin\nvcc.exe     -x cu -c C:\Users\Gao_z\CLionProjects\Playground_gaozm\CUDA_cpp\cmake-build-debug-nvcc\CMakeFiles\CMakeTmp\main.cu -o CMakeFiles\cmTC_ca0af.dir\main.cu.obj
+    nvcc fatal   : Cannot find compiler 'cl.exe' in PATH
+    mingw32-make.exe[1]: *** [CMakeFiles\cmTC_ca0af.dir\build.make:85: CMakeFiles/cmTC_ca0af.dir/main.cu.obj] Error 1
+    mingw32-make.exe[1]: Leaving directory 'C:/Users/Gao_z/CLionProjects/Playground_gaozm/CUDA_cpp/cmake-build-debug-nvcc/CMakeFiles/CMakeTmp'
+    mingw32-make.exe: *** [Makefile:140: cmTC_ca0af/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/Gao_z/CLionProjects/Playground_gaozm/CUDA_cpp/cmake-build-debug-nvcc/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/Gao_z/CLionProjects/Playground_gaozm/CUDA_cpp/cmake-build-debug-nvcc/CMakeFiles/CMakeError.log".

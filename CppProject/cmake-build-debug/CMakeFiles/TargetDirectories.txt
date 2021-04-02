@@ -1,3 +1,3 @@
-C:/Users/GAOZHEMING/Project in KU/Playground/Playground_gaozm/CppProject/cmake-build-debug/CMakeFiles/CppProject.dir
-C:/Users/GAOZHEMING/Project in KU/Playground/Playground_gaozm/CppProject/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/GAOZHEMING/Project in KU/Playground/Playground_gaozm/CppProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Gao_z/CLionProjects/Playground_gaozm/CppProject/cmake-build-debug/CMakeFiles/CppProject.dir
+C:/Users/Gao_z/CLionProjects/Playground_gaozm/CppProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Gao_z/CLionProjects/Playground_gaozm/CppProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/GAOZHEMING/Project in KU/Playground/Playground_gaozm/CppProject/main.cpp
-stdio.h
+C:/Users/Gao_z/CLionProjects/Playground_gaozm/CppProject/main.cpp
+cstdio
+-
+list
+-
+omp.h
+-
+vector
 -
 
